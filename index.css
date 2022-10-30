@@ -1,0 +1,90 @@
+* {
+  background-color: #3e5210;
+}
+
+
+
+form {
+font-size: xx-large;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:rgb(255, 255, 255)}
+
+input{
+  font-size: large;
+  color:rgb(255, 255, 255);
+  border-radius: 100px;
+  width: 300px;
+  height: 35px;
+  background-color: rgb(6, 43, 8);
+}
+
+
+
+.text {
+  color: white;
+  font-size:xx-large;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=text],{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button {
+  border-color: #9aada0;
+  background-color: rgb(248, 135, 135);
+  width: 200px;
+  padding: 30px 30px;
+  border-radius: 10px
+}
+
+.resetButton {
+  border-color: #9aada0;
+  background-color: rgb(112, 177, 250);
+  width: 150px;
+  padding: 25px 25px;
+  border-radius: 12px;
+  font-size: xx-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttonDiv {
+  display: block;
+}
+
+.center {
+  border: 5px;
+  text-align: center;
+  transform: translateY(35vh);
+}
+
+h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 75px;
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:1400px; top:0px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+}
